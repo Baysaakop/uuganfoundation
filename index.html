@@ -131,7 +131,7 @@
                 <p class="script-font wow fadeInUp" data-wow-delay="0.6s">Foundation</p>
                 <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
                   <li>
-                    <a class="facebook" href="#"><i class="icon-social-facebook"></i></a>
+                    <a class="facebook" href="https://www.facebook.com/BadaruuganEnkhbat"><i class="icon-social-facebook"></i></a>
                   </li>
                   <li>
                     <a class="twitter" href="#"><i class="icon-social-twitter"></i></a>
@@ -147,7 +147,7 @@
                   </li>
                 </ul>
                 <div class="header-button wow fadeInUp" data-wow-delay="1s">
-                  <a href="#" class="btn btn-common">Donate</a>
+                  <a href="#" class="btn btn-common" data-toggle="modal" data-target="#donateModal">Donate</a>
                 </div>
               </div>
             </div>
@@ -158,6 +158,38 @@
 
     </header>
     <!-- Header Area wrapper End -->
+
+    <!-- Modal -->
+    <div id="donateModal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-sm">
+
+          <!-- Modal content-->
+          <div class="modal-content">             
+            <div class="modal-header">
+              <h5>Thank you for your donation!</h5>
+            </div>
+            <div class="modal-body" style="border: 0">
+              <img alt="qr" src="assets/img/QR.png" style="width: 100%; height: auto;" /> 
+              <div style="display: flex; justify-content: space-around; align-items:  center;">
+                <div>
+                  <p>Bank:</p>
+                  <p>Account number:</p>
+                  <p>Account holder:</p>
+                  <p>Currency:</p>
+                  <p>Limit:</p>
+                </div>
+                <div>
+                  <p>Тээвэр хөгжлийн банк</p>
+                  <p>MN110019009130000239</p>
+                  <p>УУГАН-АВАРГА САН</p>
+                  <p>EUR</p>
+                  <p>∞ unlimited transaction</p>
+                </div>
+              </div>                                                
+            </div>            
+          </div>
+      </div>
+    </div>
 
     <!-- About Section Start -->
     <section id="about" class="section-padding">
@@ -178,14 +210,14 @@
                   <li><span class="pro-title"> Date of Birth </span> <span class="pro-detail">June 3, 1985</span></li>
                   <li><span class="pro-title"> Place of Birth </span> <span class="pro-detail">Ulaanbaatar</span></li>
                   <li><span class="pro-title"> Country </span> <span class="pro-detail">Mongolia</span></li>
-                  <li><span class="pro-title"> Location </span> <span class="pro-detail">San Francisco, CA</span></li>
-                  <li><span class="pro-title"> e-mail </span> <span class="pro-detail">email@example.com</span></li>
-                  <li><span class="pro-title"> Phone </span> <span class="pro-detail">+ (00) 123 456 789</span></li>
-                  <li><span class="pro-title"> Freelance </span> <span class="pro-detail">Available</span></li>
+                  <li><span class="pro-title"> Location </span> <span class="pro-detail">Chinggis ave 31, Ulaanbaatar, Mongolia</span></li>
+                  <li><span class="pro-title"> E-mail </span> <span class="pro-detail">uuganfund@gmail.com</span></li>
+                  <li><span class="pro-title"> Phone </span> <span class="pro-detail">+976 9015 5555</span></li>
+                  <li><span class="pro-title"> Achievement </span> <span class="pro-detail">Olympic Games - Golden medal</span></li>
                 </ul>
               </div>
-              <a href="#" class="btn btn-common"><i class="icon-paper-clip"></i> Download Resume</a>
-              <a href="#" class="btn btn-danger"><i class="icon-speech"></i> Contact Me</a>
+              <a href="https://en.wikipedia.org/wiki/Enkhbatyn_Badar-Uugan" class="btn btn-common"> Wikipedia</a>
+              <a href="https://www.youtube.com/watch?v=S8mCucZN8Zg&ab_channel=AlexTumee" class="btn btn-danger"><i class="icon-social-youtube"></i> YouTube</a>
             </div>
           </div>   
         </div>
@@ -568,7 +600,7 @@
                 <i class="icon-badge"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#" data-toggle="modal" data-target="#myModal">Өсвөрийн Спорт цогцолбор</a></h3>                
+                <h3><a href="#" data-toggle="modal" data-target="#projectModal">Өсвөрийн Спорт цогцолбор</a></h3>                
               </div>
             </div>
           </div>
@@ -610,7 +642,7 @@
     </section>
 
     <!-- Modal -->
-    <div id="myModal" class="modal fade" role="dialog">
+    <div id="projectModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg">
 
             <!-- Modal content-->
@@ -627,10 +659,10 @@
     </div>
 
     <!-- Counter Area Start-->
+    <!--
     <section class="counter-section section-padding">
       <div class="container">
         <div class="row">
-          <!-- Counter Item -->
           <div class="col-md-3 col-sm-6 work-counter-widget text-center">
             <div class="counter wow fadeInDown" data-wow-delay="0.3s">
               <div class="icon"><i class="icon-briefcase"></i></div>
@@ -638,7 +670,6 @@
               <p>Project Working</p>
             </div>
           </div>
-          <!-- Counter Item -->
           <div class="col-md-3 col-sm-6 work-counter-widget text-center">
             <div class="counter wow fadeInDown" data-wow-delay="0.6s">
               <div class="icon"><i class="icon-check"></i></div>
@@ -646,7 +677,6 @@
               <p>Project Done</p>
             </div>
           </div>
-          <!-- Counter Item -->
           <div class="col-md-3 col-sm-6 work-counter-widget text-center">
             <div class="counter wow fadeInDown" data-wow-delay="0.9s">
               <div class="icon"><i class="icon-diamond"></i></div>
@@ -654,7 +684,6 @@
               <p>Awards Received</p>
             </div>
           </div>
-          <!-- Counter Item -->
           <div class="col-md-3 col-sm-6 work-counter-widget text-center">
             <div class="counter wow fadeInDown" data-wow-delay="1.2s">
               <div class="icon"><i class="icon-heart"></i></div>
@@ -665,6 +694,7 @@
         </div>
       </div>
     </section>
+    -->
     <!-- Counter Area End-->
 
     <!-- Contact Section Start -->
@@ -718,28 +748,26 @@
                     <div class="contact-icon">
                       <i class="fa fa-map-marker"></i>
                     </div>
-                    <p>San Francisco, CA</p>
+                    <p>Chinggis ave 31, Ulaanbaatar, Mongolia</p>
                   </div>
                   <div class="single-contact">
                     <div class="contact-icon">
                       <i class="fa fa-envelope"></i>
                     </div>
-                    <p><a href="mailto:hello@tom.com">hello@tom.com</a></p>
-                    <p><a href="mailto:tomsaulnier@gmail.com">tomsaulnier@gmail.com</a></p>
+                    <p><a href="mailto:uuganfund@gmail.com">uuganfund@gmail.com</a></p>                    
                   </div>
                   <div class="single-contact">
                     <div class="contact-icon">
                       <i class="fa fa-phone"></i>
                     </div>
-                    <p><a href="#">+ (00) 123 456 789</a></p>
-                    <p><a href="#">+ (00) 123 344 789</a></p>
+                    <p><a href="#">+976 9015 5555</a></p>                    
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-12">
+            <!-- <div class="col-md-12">
             <object style="border:0; height: 450px; width: 100%;" data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34015.943594576835!2d-106.43242624069771!3d31.677719472407432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d90e99d597b%3A0x6cd3eb9a9fcd23f1!2sCourtyard+by+Marriott+Ciudad+Juarez!5e0!3m2!1sen!2sbd!4v1533791187584"></object>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>   
@@ -754,7 +782,7 @@
             <div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
               <ul class="social-icon">
                 <li>
-                  <a class="facebook" href="#"><i class="icon-social-facebook"></i></a>
+                  <a class="facebook" href="https://www.facebook.com/BadaruuganEnkhbat"><i class="icon-social-facebook"></i></a>
                 </li>
                 <li>
                   <a class="twitter" href="#"><i class="icon-social-twitter"></i></a>
@@ -769,7 +797,7 @@
                   <a class="instagram" href="#"><i class="icon-social-google"></i></a>
                 </li>
               </ul>
-              <p>Copyright © 2018 UIdeck All Right Reserved</p>
+              <p>Copyright © 2023 Uugan Champion Foundation</p>
             </div>
           </div>
         </div>

@@ -933,13 +933,13 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .services-item .services-content h3 {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 10px;  
 }
 
 .services-item .services-content h3 a {
   font-size: 18px;
   text-transform: uppercase;
-  color: #666;
+  color: #666;  
 }
 
 .services-item .services-content h3 a:hover {
